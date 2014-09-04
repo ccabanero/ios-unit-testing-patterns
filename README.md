@@ -1,4 +1,4 @@
-ios-unit-testing-patterns
+iOS Unit Testing Patterns
 =========================
 
 
@@ -7,6 +7,7 @@ Examples of unit testing patterns for iOS projects.
 
 ####Language
 Objective-C and Swift
+
 ####Unit Tests for Controller Classes
 [UITableView](UITableView.md)
 
