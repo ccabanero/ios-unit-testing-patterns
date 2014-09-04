@@ -12,16 +12,16 @@ Objective-C and Swift
 
 Description | Language
 ------------ | ------------- 
-[UITableView](Samples/UITableView-objc.md) | Objective-C
-test | test
+[Uses UITableView](Samples/UITableView-objc.md) | Objective-C
+[Uses UIButton](Samples/UIButton-objc.md) | Objective-C
 
 
 ####Sample Unit Tests for Model Classes
 
 Description | Language
 ------------ | ------------- 
-[MKAnnotation](Samples/MKAnnotation-objc.md) | Objective-C
-[Model Class can Process Response From Network Request](Samples/NetworkRequests-objc.md)| Objective-C
+[Adopts the MKAnnotation protocol](Samples/MKAnnotation-objc.md) | Objective-C
+[Can Process Response From Network Request](Samples/NetworkRequests-objc.md)| Objective-C
 
 ####Contact
 * Twitter: [@clintcabanero](http://twitter.com/clintcabanero)

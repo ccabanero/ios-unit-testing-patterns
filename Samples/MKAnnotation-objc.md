@@ -1,7 +1,9 @@
 [Back To Main](https://github.com/ccabanero/ios-unit-testing-patterns)
 
 #### Description
-Example unit test for Model class that adopts the MKAnnotation protocol.
+Example unit tests for Model class that adopts the MKAnnotation protocol.
+
+#### Code Sample
 	
 	#import <XCTest/XCTest.h>
 	#import "FerryTerminalAnno.h"
