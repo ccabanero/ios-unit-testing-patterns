@@ -9,10 +9,10 @@ Examples of unit testing patterns for iOS projects.
 Objective-C and Swift
 
 ####Unit Tests for Controller Classes
-[UITableView](UITableView.md)
+[UITableView](Samples/UITableView-objc.md)
 
 ####Unit Tests for Model Classes
-
+[MKAnnotation](Samples/MKAnnotation-objc.md)
 
 ####Contact
 * Twitter: [@clintcabanero](http://twitter.com/clintcabanero)
