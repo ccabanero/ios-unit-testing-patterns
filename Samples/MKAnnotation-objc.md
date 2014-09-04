@@ -89,4 +89,6 @@ Example unit tests for Model class that adopts the MKAnnotation protocol.
 	    XCTAssertTrue(countOfParkAnnotationsAfterAddedToMap > initialCountOfAnnotations, @"Annotation under test cannot be added to a MKMapView");
 	}
 	
+	//continue with application-specific tests ...
+	
 	@end
