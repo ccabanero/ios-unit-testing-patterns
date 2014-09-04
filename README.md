@@ -8,7 +8,7 @@ Examples of unit testing patterns for iOS projects.
 ####Language
 Objective-C and Swift
 
-####Sample Unit Tests for Controller Classes using ...
+####Sample Unit Tests for Controller Classes
 
 Description | Language
 ------------ | ------------- 
@@ -16,12 +16,12 @@ Description | Language
 test | test
 
 
-####Sample Unit Tests for Model Classes using ...
+####Sample Unit Tests for Model Classes
 
 Description | Language
 ------------ | ------------- 
 [MKAnnotation](Samples/MKAnnotation-objc.md) | Objective-C
-[Model Class can Process Response From Network Request](Samples/NetworkRequests-objc)| Objective-C
+[Model Class can Process Response From Network Request](Samples/NetworkRequests-objc.md)| Objective-C
 
 ####Contact
 * Twitter: [@clintcabanero](http://twitter.com/clintcabanero)
