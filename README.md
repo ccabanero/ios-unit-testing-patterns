@@ -12,9 +12,10 @@ Objective-C and Swift
 
 Description | Language
 ------------ | ------------- 
-[Controller composed UITableView](Samples/UITableView-objc.md) | Objective-C
+[Controller composed of UITableView](Samples/UITableView-objc.md) | Objective-C
 [Controller composed of UIButton](Samples/UIButton-objc.md) | Objective-C
 [Controller composed of MKMapView](Samples/MKMapView-objc.md) | Objective-C
+[Controller composed of CLLocationManager](Samples/CLLocationManager-objc.md) | Objective-C
 
 ####Sample Unit Tests for Model Classes
 
