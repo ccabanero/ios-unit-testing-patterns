@@ -16,6 +16,7 @@ Description | Language
 [Controller composed of UIButton](Samples/UIButton-objc.md) | Objective-C
 [Controller composed of MKMapView](Samples/MKMapView-objc.md) | Objective-C
 [Controller composed of CLLocationManager](Samples/CLLocationManager-objc.md) | Objective-C
+[Controller composed of UISegmentedControl](Samples/UISegmentedControl-objc.md) | Objective-C
 
 ####Sample Unit Tests for Model Classes
 

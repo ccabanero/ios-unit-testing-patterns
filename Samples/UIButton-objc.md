@@ -43,7 +43,7 @@ Example unit tests for Controller class that is composed of a UIButton and uses 
 	
 	- (void)testButtonTriggersActionMethod {
 	    
-	    XCTAssertTrue([self.viewControllerUnderTest.button actionsForTarget:self.viewControllerUnderTest forControlEvent:UIControlEventTouchUpInside], @"button does not trigger action method on TouchUpInside");
+	    XCTAssertTrue([self.viewControllerUnderTest.button actionsForTarget:self.viewControllerUnderTest forControlEvent:UIControlEventTouchUpInside], @"button does not trigger action method TouchUpInside");
 	}
 	
 	//continue with application-specific tests of UIButton ...
