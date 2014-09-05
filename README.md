@@ -17,6 +17,7 @@ Description | Language
 ------------ | ------------- 
 [ViewController (with xib) composed of UITableView](Samples/UITableView-objc.md) | Objective-C
 [ViewController (with xib) composed of MKMapView](Samples/MKMapView-objc.md) | Objective-C
+[ViewController (in Storyboard) composed of MKMapView](Samples/MKMapView-swift.md) | Swift
 [ViewController (with xib) composed of CLLocationManager](Samples/CLLocationManager-objc.md) | Objective-C
 [ViewController (with xib) composed of UISegmentedControl](Samples/UISegmentedControl-objc.md) | Objective-C
 [ViewController (with xib) composed of UIButton](Samples/UIButton-objc.md) | Objective-C

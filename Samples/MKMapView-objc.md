@@ -37,17 +37,17 @@ Example unit tests for a ViewController class that is composed of a MKMapView an
 	
 	- (void)testControllerIsComposedOfMapView {
 	    
-	    XCTAssertNotNil(self.viewControllerUnderTest.mapView, @"Controller is not composed of MapView");
+	    XCTAssertNotNil(self.viewControllerUnderTest.mapView, @"ViewController under test is not composed of MapView");
 	}
 	
 	- (void)testControllerImplementsMKMapViewDelegateMethods {
 	    
-	    XCTAssertTrue([self.viewControllerUnderTest respondsToSelector:@selector(mapView:viewForAnnotation:)], @"Controller does not conform to MapView:viewForAnnotation");
+	    XCTAssertTrue([self.viewControllerUnderTest respondsToSelector:@selector(mapView:viewForAnnotation:)], @"ViewController under test does not implement mapView:viewForAnnotation");
 	}
 	
 	- (void)testControllerConformsToMKMapViewDelegate {
 	    
-	    XCTAssertTrue([self.viewControllerUnderTest conformsToProtocol:@protocol(MKMapViewDelegate)], @"Controller does not conform to MKMapViewDelegate protocol");
+	    XCTAssertTrue([self.viewControllerUnderTest conformsToProtocol:@protocol(MKMapViewDelegate)], @"ViewController under test does not conform to MKMapViewDelegate protocol");
 	}
 	
 	- (void)testMapIsShowingCustomTileOverlay {
