@@ -39,35 +39,29 @@ Example unit tests for a ViewController class that is composed of a UITableView 
 	    
 	    NSArray *subViews = self.viewControllerUnderTest.view.subviews;
 	    
-	    XCTAssertTrue([subViews containsObject:self.viewControllerUnderTest.tableView], @"ViewController is not composed of a UITableView");
+	    XCTAssertTrue([subViews containsObject:self.viewControllerUnderTest.tableView], @"ViewController under test is not composed of a UITableView");
 	}
 	
-	- (void)testViewControllerImplementsUITableViewDatasourceProtocolMethods {
+	- (void)testViewControllerConformsToTableViewDataSourceProtocol {
+	    
+	    XCTAssertTrue([self.viewControllerUnderTest conformsToProtocol:@protocol(UITableViewDataSource)], @"ViewController under test does not conform to the UITableViewDataSource prototocol");
 	    
 	    XCTAssertTrue([self.viewControllerUnderTest respondsToSelector:@selector(numberOfSectionsInTableView:)], @"ViewController under test does not implement numberOfSectionsInTableView protocol method");
 	    
-	    XCTAssertTrue([self.viewControllerUnderTest respondsToSelector:@selector(tableView:numberOfRowsInSection:)], @"ViewController under test does not implement numberOfRowsInSection protocol method");
+	    XCTAssertTrue([self.viewControllerUnderTest respondsToSelector:@selector(tableView:numberOfRowsInSection:)], @"ViewController under test does not implement tableView:numberOfRowsInSection protocol method");
 	    
-	    XCTAssertTrue([self.viewControllerUnderTest respondsToSelector:@selector(tableView:cellForRowAtIndexPath:)], @"ViewController under test does not implement cellForRowAtIndexPath");
+	    XCTAssertTrue([self.viewControllerUnderTest respondsToSelector:@selector(tableView:cellForRowAtIndexPath:)], @"ViewController under test does not implement tableView:cellForRowAtIndexPath");
 	    
 	    //continue with other UITableViewDataSource protocol methods of interest ...
 	}
-	
-	- (void)testViewControllerConformsToTableViewDataSource {
+
+	- (void)testViewControllerConformsToTableViewDelegateProtocol {
 	    
-	    XCTAssertTrue([self.viewControllerUnderTest conformsToProtocol:@protocol(UITableViewDataSource)], @"ViewController under test does not conform to the UITableViewDataSource prototocol");
-	}
-	
-	- (void)testViewControllerImplementsUITableViewDelegateProtocolMethods {
+	    XCTAssertTrue([self.viewControllerUnderTest conformsToProtocol:@protocol(UITableViewDelegate)], @"ViewController under test does not conform to the UITableViewDelegate protocol.");
 	    
 	    XCTAssertTrue([self.viewControllerUnderTest respondsToSelector:@selector(tableView:didSelectRowAtIndexPath:)], @"ViewController under test does not implement tableView:didSelectRowAtIndexPath: protocol method");
 	    
 	    //continue with other UITableViewDelegate protocol methods of interest ...
-	}
-	
-	- (void)testViewControllerConformsToTableViewDelegate {
-	    
-	    XCTAssertTrue([self.viewControllerUnderTest conformsToProtocol:@protocol(UITableViewDelegate)], @"ViewController under test does not conform to the UITableViewDelegate protocol.");
 	}
 	
 	- (void)testTableViewCellsHaveCorrectTextLabel {
