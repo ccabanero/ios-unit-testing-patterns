@@ -13,6 +13,7 @@ Example unit tests for a ViewController class that is composed of a UIButton and
 	
 	@end
 	
+	
 	@implementation MyViewControllerTest
 	
 	- (void)setUp
@@ -46,6 +47,6 @@ Example unit tests for a ViewController class that is composed of a UIButton and
 	    XCTAssertTrue([self.viewControllerUnderTest.button actionsForTarget:self.viewControllerUnderTest forControlEvent:UIControlEventTouchUpInside], @"button does not trigger action method TouchUpInside");
 	}
 	
-	//continue with application-specific tests of UIButton ...
+	//continue with App-specific tests ...
 	
 	@end

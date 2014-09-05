@@ -13,6 +13,7 @@ Example unit tests for a ViewViewController class that is composed of a UISegmen
 	
 	@end
 	
+	
 	@implementation MyViewControllerTest
 	
 	- (void)setUp
@@ -61,8 +62,8 @@ Example unit tests for a ViewViewController class that is composed of a UISegmen
 	- (void)testSegmentedControlTriggersActionMethod {
 	    
 	    XCTAssert([self.viewControllerUnderTest.segmentedControl actionsForTarget:self.viewControllerUnderTest forControlEvent:UIControlEventValueChanged], @"SegmentedControl does not triffer action method ValueChanged");
-	    
-	    //continue with other App-specific test on UISegmentedControl
 	}
+	
+	//continue with App-specific tests ...
 	
 	@end

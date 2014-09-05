@@ -13,6 +13,7 @@ Example unit tests for a ViewController class that is composed of a UIPickerView
 	
 	@end
 	
+	
 	@implementation MyViewControllerTest
 	
 	- (void)setUp
@@ -84,5 +85,7 @@ Example unit tests for a ViewController class that is composed of a UIPickerView
 	    
 	    XCTAssertEqualObjects(leia, @"Leia", @"UIPickerView has incorrect row value");
 	}
+	
+	//continue with App-specific tests ...
 	
 	@end

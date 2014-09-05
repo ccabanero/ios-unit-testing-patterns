@@ -12,6 +12,7 @@ Example unit tests for a ViewController class that is composed of a CLLocationMa
 	
 	@end
 	
+	
 	@implementation MyViewControllerTest
 	
 	- (void)setUp
@@ -46,5 +47,7 @@ Example unit tests for a ViewController class that is composed of a CLLocationMa
 	    
 	    //continue with other protocol methods that require implementation
 	}
+	
+	//continue with App-specific tests ...
 	
 	@end

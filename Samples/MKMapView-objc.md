@@ -13,6 +13,7 @@ Example unit tests for a ViewController class that is composed of a MKMapView an
 	
 	@end
 	
+	
 	@implementation MyViewControllerTest
 	
 	- (void)setUp
@@ -80,9 +81,6 @@ Example unit tests for a ViewController class that is composed of a MKMapView an
 	    XCTAssertTrue(tileOverlayIsAddedToMap, @"The map does not show the tile overlay.");
 	}
 	
-	//------------------------------------------------
-	//  FEATURE - User can toggle location on and off
-	//------------------------------------------------
 	- (void)testViewControllerHasLocationButton {
 	    
 	    XCTAssertNotNil(self.viewControllerUnderTest.locationButton, @"ViewController under test is not composed of a Location Button");
@@ -92,5 +90,7 @@ Example unit tests for a ViewController class that is composed of a MKMapView an
 	    
 	    XCTAssertTrue([self.viewControllerUnderTest.locationButton actionsForTarget:self.viewControllerUnderTest forControlEvent:UIControlEventTouchUpInside], @"Location button does not trigger action method");
 	}
+	
+	//continue with App-specific tests ...
 	
 	@end

@@ -13,6 +13,7 @@ Example unit tests for a ViewController class that is composed of a UITableView 
 	
 	@end
 	
+	
 	@implementation MyViewControllerTest
 	
 	- (void)setUp
@@ -84,5 +85,7 @@ Example unit tests for a ViewController class that is composed of a UITableView 
 	    
 	    XCTAssert([cell1.textLabel.text isEqualToString:@"ENTER-TEXT-OF-INTEREST"], @"ViewController under test is composed of a UITableView that has improperly initialized UITableViewCells");
 	}
+	
+	//continue with App-specific tests ...
 	
 	@end
