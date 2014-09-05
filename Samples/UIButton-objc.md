@@ -1,7 +1,7 @@
 [Back To Main](https://github.com/ccabanero/ios-unit-testing-patterns)
 
 #### Description
-Example unit tests for Controller class that is composed of a UIButton and uses the Target-Action pattern to handle button events.
+Example unit tests for a ViewController class that is composed of a UIButton and uses the Target-Action pattern to handle button events.
 
 #### Code Sample
 	#import <XCTest/XCTest.h>

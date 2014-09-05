@@ -12,12 +12,14 @@ Objective-C and Swift
 
 Description | Language
 ------------ | ------------- 
-[Controller composed of UITableView](Samples/UITableView-objc.md) | Objective-C
-[Controller composed of MKMapView](Samples/MKMapView-objc.md) | Objective-C
-[Controller composed of CLLocationManager](Samples/CLLocationManager-objc.md) | Objective-C
-[Controller composed of UISegmentedControl](Samples/UISegmentedControl-objc.md) | Objective-C
-[Controller composed of UIButton](Samples/UIButton-objc.md) | Objective-C
-[Controller composed of UIPickerView](Samples/UIPickerView-objc.md) | Objective-C
+[ViewController (with xib) composed of UITableView](Samples/UITableView-objc.md) | Objective-C
+[ViewController (with xib) composed of MKMapView](Samples/MKMapView-objc.md) | Objective-C
+[ViewController (with xib) composed of CLLocationManager](Samples/CLLocationManager-objc.md) | Objective-C
+[ViewController (with xib) composed of UISegmentedControl](Samples/UISegmentedControl-objc.md) | Objective-C
+[ViewController (with xib) composed of UIButton](Samples/UIButton-objc.md) | Objective-C
+[ViewController (with xib) composed of UIPickerView](Samples/UIPickerView-objc.md) | Objective-C
+[ViewController (with xib) composed of UILabel](Samples/UILabel-objc.md) | Objective-C
+[ViewController (in Storyboard) composed of UILabel](Samples/UILabel-swift.md) | Swift
 
 ####Sample Unit Tests for Model Classes
 

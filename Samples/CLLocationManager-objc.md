@@ -2,7 +2,7 @@
 
 #### Description
 
-Example unit tests for Controller class that is composed of a CLLocationManager and adopts the CLLocationManagerDelegate protocol.
+Example unit tests for a ViewController class that is composed of a CLLocationManager and adopts the CLLocationManagerDelegate protocol.
 
 #### Code Sample
 	
