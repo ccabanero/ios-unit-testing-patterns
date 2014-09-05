@@ -3,7 +3,7 @@ iOS Unit Testing Patterns
 
 
 #### Description
-Examples of unit testing patterns for iOS projects.  
+Examples of unit testing patterns for iOS projects.
 
 ####Language
 Objective-C and Swift
@@ -13,10 +13,10 @@ Objective-C and Swift
 Description | Language
 ------------ | ------------- 
 [Controller composed of UITableView](Samples/UITableView-objc.md) | Objective-C
-[Controller composed of UIButton](Samples/UIButton-objc.md) | Objective-C
 [Controller composed of MKMapView](Samples/MKMapView-objc.md) | Objective-C
 [Controller composed of CLLocationManager](Samples/CLLocationManager-objc.md) | Objective-C
 [Controller composed of UISegmentedControl](Samples/UISegmentedControl-objc.md) | Objective-C
+[Controller composed of UIButton](Samples/UIButton-objc.md) | Objective-C
 [Controller composed of UIPickerView](Samples/UIPickerView-objc.md) | Objective-C
 
 ####Sample Unit Tests for Model Classes
