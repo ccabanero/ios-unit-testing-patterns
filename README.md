@@ -3,10 +3,13 @@ iOS Unit Testing Patterns
 
 
 #### Description
-Examples of unit testing patterns for iOS projects.
+Examples of unit testing patterns for iOS projects.  
 
-####Language
+####Languages
 Objective-C and Swift
+
+####Unit Testing Framework
+XCTest.framework
 
 ####Sample Unit Tests for Controller Classes
 
