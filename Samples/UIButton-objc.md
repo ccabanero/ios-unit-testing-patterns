@@ -1,4 +1,4 @@
-[Back To Main](https://github.com/ccabanero/ios-unit-testing-patterns)
+[Back To Main](https://github.com/ccabanero/ios-unit-testing-patterns) | ViewController (with xib) composed of UIButton
 
 #### Description
 Example unit tests for a ViewController class that is composed of a UIButton and uses the Target-Action pattern to handle button events.
@@ -44,7 +44,7 @@ Example unit tests for a ViewController class that is composed of a UIButton and
 	
 	- (void)testButtonTriggersActionMethod {
 	    
-	    XCTAssertTrue([self.viewControllerUnderTest.button actionsForTarget:self.viewControllerUnderTest forControlEvent:UIControlEventTouchUpInside], @"button does not trigger action method TouchUpInside");
+	    XCTAssertTrue([self.viewControllerUnderTest.button actionsForTarget:self.viewControllerUnderTest forControlEvent:UIControlEventTouchUpInside], @"Button does not trigger action method on TouchUpInside event");
 	}
 	
 	//continue with App-specific tests ...

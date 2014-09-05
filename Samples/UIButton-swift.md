@@ -1,21 +1,20 @@
-[Back To Main](https://github.com/ccabanero/ios-unit-testing-patterns) | ViewController (in Storyboard) composed of UILabel
+[Back To Main](https://github.com/ccabanero/ios-unit-testing-patterns) | ViewController (in Storyboard) composed of UIButton
 
 #### Description
-Example unit tests for a ViewController class (in a storyboard) that is composed of a UILabel.
+Example unit tests for a ViewController class (in a Storyboard) that is composed of a UIButton and uses the Target-Action pattern to handle button events.
 
 #### Code Sample
 	import UIKit
 	import XCTest
 	
 	class ExampleTests: XCTestCase {
-	    
+	
 	    //note: remember to add the Main.storyboard and ViewController under test as a member of the test target (via file inspector)
 	    
 	    //declaring the ViewController under test as an implicitly unwrapped optional
 	    var viewControllerUnderTest : ViewController!
 	    
 	    override func setUp() {
-	    
 	        super.setUp()
 	        
 	        //get the storyboard the ViewController under test is inside
@@ -32,20 +31,13 @@ Example unit tests for a ViewController class (in a storyboard) that is composed
 	        }
 	    }
 	    
-	    override func tearDown() {
+	    func testViewControllerIsNotComposedOfButton() {
 	        
-	        self.viewControllerUnderTest = nil
-	        
-	        super.tearDown()
+	        XCTAssertNotNil(self.viewControllerUnderTest.button, "Button not in view hierarchy of ViewController under test")
 	    }
 	    
-	    func testViewControllerIsComposedOfLabel() {
-	
-	        XCTAssertNotNil(self.viewControllerUnderTest.label, "ViewController under test is not composed of a UILabel")
-	    }
-	    
-	    func testViewControllerInitializesLabelText() {
+	    func testButtonTriggersActionMethod() {
 	        
-	         XCTAssert(self.viewControllerUnderTest.label.text == "Vader", "ViewController under test does not initialize the text property of UILabel correctly")
+	        XCTAssertNotNil(self.viewControllerUnderTest.button.actionsForTarget(self.viewControllerUnderTest, forControlEvent:UIControlEvents.TouchUpInside), "Button does not trigger action method on TouchUpInside event")
 	    }
 	}

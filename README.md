@@ -20,6 +20,7 @@ Description | Language
 [ViewController (with xib) composed of CLLocationManager](Samples/CLLocationManager-objc.md) | Objective-C
 [ViewController (with xib) composed of UISegmentedControl](Samples/UISegmentedControl-objc.md) | Objective-C
 [ViewController (with xib) composed of UIButton](Samples/UIButton-objc.md) | Objective-C
+[ViewController (in Storyboard) composed of UIButton](Samples/UIButton-swift.md) | Swift
 [ViewController (with xib) composed of UIPickerView](Samples/UIPickerView-objc.md) | Objective-C
 [ViewController (with xib) composed of UILabel](Samples/UILabel-objc.md) | Objective-C
 [ViewController (in Storyboard) composed of UILabel](Samples/UILabel-swift.md) | Swift
