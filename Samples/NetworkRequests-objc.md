@@ -1,4 +1,4 @@
-[Back To Main](https://github.com/ccabanero/ios-unit-testing-patterns) | Model can Process Response From Network Request
+[Back To Main](https://github.com/ccabanero/ios-unit-testing-patterns) 
 
 #### Description
 Example unit test to confirm that a model class can properly process a response from an asynchronous request over the network.  Uses Grand Central Dispatch (GCD) semaphores to wait for asynchronously dispatched blocks to finish.  [Credit](http://www.g8production.com/post/76942348764/wait-for-blocks-execution-using-a-dispatch-semaphore)

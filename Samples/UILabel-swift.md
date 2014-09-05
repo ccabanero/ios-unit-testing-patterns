@@ -1,4 +1,4 @@
-[Back To Main](https://github.com/ccabanero/ios-unit-testing-patterns) | ViewController (in Storyboard) composed of UILabel
+[Back To Main](https://github.com/ccabanero/ios-unit-testing-patterns) 
 
 #### Description
 Example unit tests for a ViewController class (in a storyboard) that is composed of a UILabel.

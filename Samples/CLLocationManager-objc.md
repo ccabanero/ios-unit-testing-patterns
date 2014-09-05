@@ -1,4 +1,4 @@
-[Back To Main](https://github.com/ccabanero/ios-unit-testing-patterns) | ViewController (with xib) composed of CLLocationManager
+[Back To Main](https://github.com/ccabanero/ios-unit-testing-patterns)
 
 #### Description
 

@@ -1,4 +1,4 @@
-[Back To Main](https://github.com/ccabanero/ios-unit-testing-patterns) | ViewController (in Storyboard) composed of UIButton
+[Back To Main](https://github.com/ccabanero/ios-unit-testing-patterns)
 
 #### Description
 Example unit tests for a ViewController class (in a Storyboard) that is composed of a UIButton and uses the Target-Action pattern to handle button events.

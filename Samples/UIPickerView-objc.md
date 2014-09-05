@@ -1,4 +1,4 @@
-[Back To Main](https://github.com/ccabanero/ios-unit-testing-patterns) | ViewController (with xib) composed of UIPickerView
+[Back To Main](https://github.com/ccabanero/ios-unit-testing-patterns)
 
 #### Description
 Example unit tests for a ViewController class that is composed of a UIPickerView and adopts the UIPickerViewDelegate and UIPickerViewDataSource protocols.

@@ -1,4 +1,5 @@
-[Back To Main](https://github.com/ccabanero/ios-unit-testing-patterns) | ViewController (with xib) composed of MKMapView
+[Back To Main](https://github.com/ccabanero/ios-unit-testing-patterns)
+
 #### Description
 Example unit tests for a ViewController class that is composed of a MKMapView and adopts the MKMapViewDelegate protocol.
 

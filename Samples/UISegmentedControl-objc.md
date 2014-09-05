@@ -1,4 +1,4 @@
-[Back To Main](https://github.com/ccabanero/ios-unit-testing-patterns) | ViewController (with xib) composed of UISegmentedControl
+[Back To Main](https://github.com/ccabanero/ios-unit-testing-patterns)
 
 #### Description
 Example unit tests for a ViewViewController class that is composed of a UISegmentedControl and uses the Target-Action pattern to handle control events.

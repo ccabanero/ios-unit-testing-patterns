@@ -1,4 +1,4 @@
-[Back To Main](https://github.com/ccabanero/ios-unit-testing-patterns) | Model adopts the MKAnnotation protocol
+[Back To Main](https://github.com/ccabanero/ios-unit-testing-patterns) 
 
 #### Description
 Example unit tests for Model class that adopts the MKAnnotation protocol.
