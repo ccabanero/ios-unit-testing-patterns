@@ -3,9 +3,8 @@
 #### Description
 Example unit test to confirm that a model class can properly process a response from an asynchronous request over the network.  Uses Grand Central Dispatch (GCD) semaphores to wait for asynchronously dispatched blocks to finish.  [Credit](http://www.g8production.com/post/76942348764/wait-for-blocks-execution-using-a-dispatch-semaphore)
 
-This allows for confirming:
+This suite of tests makes the following assertions:
 
-* The url request is formed correctly
 * The response did not return an error
 * The response has a status code of 200
 * The response provided data
@@ -37,7 +36,7 @@ This allows for confirming:
 	            
 	            NSDictionary *responseDict = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:nil];
 	            
-	            NSArray *collectionOfStuff = [MyFetcher serializeToVenueCollectionForResponse:responseDict];
+	            NSArray *collectionOfStuff = [MyFetcher serializeTheStuffForResponse:responseDict];
 	            
 	            XCTAssertTrue(collectionOfStuff.count > 0, @"Failed to serialize to a collection of stuff");
 	            
