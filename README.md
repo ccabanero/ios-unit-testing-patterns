@@ -5,6 +5,8 @@ iOS Unit Testing Patterns
 #### Description
 Examples of unit testing patterns for iOS projects.  
 
+While it is usually straightforward to create unit tests for your Model classes, the mechanics of how to write unit tests that assert the behaviors and responsibilities of your Controller classes are usually less straightforward.  Being so, the list below provides more examples for ways to approach unit testing your UIViewController subclasses.
+
 ####Languages
 Objective-C and Swift
 
@@ -15,7 +17,7 @@ XCTest.framework
 
 Description | Language
 ------------ | ------------- 
-[ViewController (with xib) composed of UITableView](Samples/UITableView-objc.md) | Objective-C
+[ViewController (with xib) composed of UITableView](https://gist.github.com/ccabanero/bc0fe961ca060dc63803) | Objective-C
 [ViewController (in Storyboard) composed of UITableView](Samples/UITableView-swift.md) | Swift
 [ViewController (with xib) composed of MKMapView](Samples/MKMapView-objc.md) | Objective-C
 [ViewController (in Storyboard) composed of MKMapView](Samples/MKMapView-swift.md) | Swift

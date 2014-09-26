@@ -50,6 +50,11 @@ Example unit tests for a ViewController class that is composed of a MKMapView an
 	    XCTAssertTrue([self.viewControllerUnderTest conformsToProtocol:@protocol(MKMapViewDelegate)], @"ViewController under test does not conform to MKMapViewDelegate protocol");
 	}
 	
+	- (void)testMapViewCanAttemptToShowUsersLocationPendingAuthorizationByUser {
+    
+    XCTAssertTrue(self.viewControllerUnderTest.mapView.showsUserLocation, @"ViewController under test composed of a MapView that will not show user's location");
+	}
+	
 	- (void)testMapIsShowingCustomTileOverlay {
 	    
 	    //get the url template for the tile overlay
