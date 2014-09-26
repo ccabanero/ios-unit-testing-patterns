@@ -17,7 +17,7 @@ Description | Language
 ------------ | ------------- 
 [ViewController (with xib) composed of UITableView](https://gist.github.com/ccabanero/bc0fe961ca060dc63803) | Objective-C
 [ViewController (in Storyboard) composed of UITableView](https://gist.github.com/ccabanero/39ee6d5fd7b289dee695) | Swift
-[ViewController (with xib) composed of MKMapView](Samples/MKMapView-objc.md) | Objective-C
+[ViewController (with xib) composed of MKMapView](https://gist.github.com/ccabanero/ae7c3e5eff7602b06047) | Objective-C
 [ViewController (in Storyboard) composed of MKMapView](Samples/MKMapView-swift.md) | Swift
 [ViewController (with xib) composed of CLLocationManager](Samples/CLLocationManager-objc.md) | Objective-C
 [ViewController (with xib) composed of UISegmentedControl](Samples/UISegmentedControl-objc.md) | Objective-C
