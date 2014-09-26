@@ -34,6 +34,7 @@ Description | Language
 [Model adopts the MKAnnotation protocol](https://gist.github.com/ccabanero/f6f8aeb7ea06073753bf) | Objective-C
 [Model can Process the Response From Async Network Request](https://gist.github.com/ccabanero/1160dc6d95182593d111)| Objective-C
 [Confirming Model object instantiation of a NSManagedObject subclass](https://gist.github.com/ccabanero/93501b0cc78e2023f119) | Objective-C
+[Confirming that a NSManagedObject subclass Category properly seeds CoreData](https://gist.github.com/ccabanero/3de1a0cfecc7cb4fa9e6) | Objective-C
 
 ####Contact
 * Twitter: [@clintcabanero](http://twitter.com/clintcabanero)
