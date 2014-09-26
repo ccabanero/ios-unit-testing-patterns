@@ -5,8 +5,6 @@ iOS Unit Testing Patterns
 #### Description
 Examples of unit testing patterns for iOS projects.  
 
-While it is usually straightforward to create unit tests for your Model classes, the mechanics of how to write unit tests that assert the behaviors and responsibilities of your Controller classes are usually less straightforward.  Being so, the list below provides more examples for ways to approach unit testing your UIViewController subclasses.
-
 ####Languages
 Objective-C and Swift
 
