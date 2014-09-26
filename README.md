@@ -16,7 +16,7 @@ XCTest.framework
 Description | Language
 ------------ | ------------- 
 [ViewController (with xib) composed of UITableView](https://gist.github.com/ccabanero/bc0fe961ca060dc63803) | Objective-C
-[ViewController (in Storyboard) composed of UITableView](Samples/UITableView-swift.md) | Swift
+[ViewController (in Storyboard) composed of UITableView](https://gist.github.com/ccabanero/39ee6d5fd7b289dee695) | Swift
 [ViewController (with xib) composed of MKMapView](Samples/MKMapView-objc.md) | Objective-C
 [ViewController (in Storyboard) composed of MKMapView](Samples/MKMapView-swift.md) | Swift
 [ViewController (with xib) composed of CLLocationManager](Samples/CLLocationManager-objc.md) | Objective-C
