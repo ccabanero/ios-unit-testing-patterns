@@ -26,6 +26,7 @@ Description | Language
 [ViewController (with xib) composed of UIPickerView](https://gist.github.com/ccabanero/8d1dfa65218b8bb10ebf) | Objective-C
 [ViewController (with xib) composed of UILabel](https://gist.github.com/ccabanero/e8f4ce9b7881d5d31939) | Objective-C
 [ViewController (in Storyboard) composed of UILabel](https://gist.github.com/ccabanero/68cd8ff461316930f707) | Swift
+[ViewController (in Storyboard) composed of UIImagePickerController](https://gist.github.com/ccabanero/3c758af01944cc591fbb) | Objective-C
 
 ####Sample Unit Tests for Model Classes
 
