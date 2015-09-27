@@ -37,7 +37,6 @@ Description | Language
 [Confirming Model object instantiation of a NSManagedObject subclass](https://gist.github.com/ccabanero/93501b0cc78e2023f119) | Objective-C
 [Confirming that a NSManagedObject subclass Category properly seeds CoreData](https://gist.github.com/ccabanero/3de1a0cfecc7cb4fa9e6) | Objective-C
 
-
 ####Set Up
 
 * When unit testing ViewController classes in storyboards, make sure to explicitly declare a 'Storyboard ID' property in the Identity Inspector for that ViewController.
@@ -66,7 +65,6 @@ Description | Language
             // Put teardown code here. This method is called after the invocation of each test method in the class.
             super.tearDown()
         }
-
 ```` 
 
 ####Connect
