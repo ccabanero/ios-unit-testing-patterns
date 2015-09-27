@@ -42,7 +42,7 @@ Description | Language
 
 * When unit testing ViewController classes in storyboards, make sure to explicitly declare a 'Storyboard ID' property in the Identity Inspector for that ViewController.
 
-* With Xcode 7, avoid adding classes to the Unit Testing target (or making instance methods or properties public).  Instead use the following at the top of each TestCase class
+* With Xcode 7, avoid adding classes to the Unit Testing target (or changing the access control level of classes for the sake of unit testing).  Instead use the __@testable__ attribute before declaring your test case class (see below).
 
 ````
     import XCTest
