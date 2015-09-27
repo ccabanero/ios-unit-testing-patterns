@@ -3,10 +3,10 @@ iOS Unit Testing Patterns
 
 
 #### Description
-Examples of unit testing patterns for iOS projects.  
+Examples of unit testing patterns for iOS application development. 
 
 ####Languages
-Objective-C and Swift
+Swift and Objective-C
 
 ####Unit Testing Framework
 XCTest.framework
@@ -37,6 +37,37 @@ Description | Language
 [Confirming Model object instantiation of a NSManagedObject subclass](https://gist.github.com/ccabanero/93501b0cc78e2023f119) | Objective-C
 [Confirming that a NSManagedObject subclass Category properly seeds CoreData](https://gist.github.com/ccabanero/3de1a0cfecc7cb4fa9e6) | Objective-C
 
+
+####Set Up
+
+* When unit testing ViewController classes in storyboards, make sure to explicitly declare a 'Storyboard ID' property in the Identity Inspector for that ViewController.
+
+* With Xcode 7, avoid adding classes to the Unit Testing target (or making instance methods or properties public).  Instead use the following at the top of each TestCase class
+
+````
+    import XCTest
+    @testable import YourAppTargetName
+
+    class UnitTestsTests: XCTestCase {
+
+        var viewControllerUnderTest: ViewController!
+
+        override func setUp() {
+            super.setUp()
+
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            self.viewControllerUnderTest = storyboard.instantiateViewControllerWithIdentifier("ViewController") as! ViewController
+
+            self.viewControllerUnderTest.loadView()
+            self.viewControllerUnderTest.viewDidLoad()
+        }
+
+        override func tearDown() {
+            // Put teardown code here. This method is called after the invocation of each test method in the class.
+            super.tearDown()
+        }
+
+```` 
 
 ####Connect
 * Twitter: [@clintcabanero](http://twitter.com/clintcabanero)
