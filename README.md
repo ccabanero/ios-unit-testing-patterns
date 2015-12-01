@@ -15,6 +15,7 @@ XCTest.framework
 
 Description | Language
 ------------ | ------------- 
+[Testing Segue transitions with mock UIViewController](https://gist.github.com/ccabanero/9f7ad6775eacec3cc997) | Swift
 [UIAlertController with mock UIViewController](https://gist.github.com/ccabanero/b88a77caba37f8dd9fbf) | Swift
 [ViewController (with xib) composed of UITableView](https://gist.github.com/ccabanero/bc0fe961ca060dc63803) | Objective-C
 [ViewController (in Storyboard) composed of UITableView](https://gist.github.com/ccabanero/39ee6d5fd7b289dee695) | Swift
