@@ -3,7 +3,7 @@ iOS Unit Testing Patterns
 
 
 #### Description
-Examples of unit testing patterns and recipes for iOS.
+Unit testing code snippets for various iOS development scenarios.
 
 ####Languages
 Swift and Objective-C
