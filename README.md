@@ -35,7 +35,8 @@ Description | Language
 
 Description | Language
 ------------ | ------------- 
-[Asynchronous Unit Test When Model performs work over the Network](https://gist.github.com/ccabanero/24a46c777bb29da95ba5) | Swift
+[Model Class Initialization](https://gist.github.com/ccabanero) | Swift
+[Asynchronous Unit Test When Model performs work over the Network](https://gist.github.com/ccabanero/90c6e2aadfd4efa6b059333edeb2b314) | Swift
 [Model adopts the MKAnnotation protocol](https://gist.github.com/ccabanero/f6f8aeb7ea06073753bf) | Objective-C
 [Model can Process the Response From Async Network Request](https://gist.github.com/ccabanero/1160dc6d95182593d111)| Objective-C
 [Confirming Model object instantiation of a NSManagedObject subclass](https://gist.github.com/ccabanero/93501b0cc78e2023f119) | Objective-C
