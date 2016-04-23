@@ -27,6 +27,7 @@ Description | Language
 [ViewController (in Storyboard) composed of UILabel](https://gist.github.com/ccabanero/68cd8ff461316930f707) | Swift
 [ViewController (in Storyboard) composed of UIImagePickerController](https://gist.github.com/ccabanero/3c758af01944cc591fbb) | Objective-C
 [ViewController (in Storyboard) implements Target-Action for a UIBarButtonItem](https://gist.github.com/ccabanero/4a1a4bfbf5fa3fbbb1070c8765c3de73) | Swift
+[ViewController (in Storyboard) composed of UICollectionView](https://gist.github.com/ccabanero/6ef47c1aeb21acfb326d30f6b01825d1) | Swift
 
 ####Sample Unit Tests for Model Classes
 
