@@ -5,8 +5,8 @@ iOS Unit Testing Patterns
 #### Description
 Unit testing code snippets for various iOS development scenarios.
 
-####Languages
-Swift and Objective-C
+####Language
+Swift
 
 ####Unit Testing Framework
 XCTest.framework
@@ -18,18 +18,15 @@ Description | Language
 [Testing Segue transitions with mock UIViewController](https://gist.github.com/ccabanero/9f7ad6775eacec3cc997) | Swift
 [Testing UIAlertController with mock UIViewController](https://gist.github.com/ccabanero/b88a77caba37f8dd9fbf) | Swift
 [Testing a CustomView is properly initialized by ViewController](https://gist.github.com/ccabanero/ac7237e4591092130326) | Swift
-[ViewController (with xib) composed of UITableView](https://gist.github.com/ccabanero/bc0fe961ca060dc63803) | Objective-C
 [ViewController (in Storyboard) composed of UITableView](https://gist.github.com/ccabanero/39ee6d5fd7b289dee695) | Swift
-[ViewController (with xib) composed of MKMapView](https://gist.github.com/ccabanero/ae7c3e5eff7602b06047) | Objective-C
 [ViewController (in Storyboard) composed of MKMapView](https://gist.github.com/ccabanero/90c73c46ed1671298775) | Swift
 [ViewController (with xib) composed of CLLocationManager](https://gist.github.com/ccabanero/cd6e068c9271a6c30bfc) | Objective-C
 [ViewController (with xib) composed of UISegmentedControl](https://gist.github.com/ccabanero/e204496231a41759fa94) | Objective-C
-[ViewController (with xib) composed of UIButton](https://gist.github.com/ccabanero/d9aee20b1d6fa3d8a001) | Objective-C
 [ViewController (in Storyboard) composed of UIButton](https://gist.github.com/ccabanero/b92197516342c0147688) | Swift
 [ViewController (with xib) composed of UIPickerView](https://gist.github.com/ccabanero/8d1dfa65218b8bb10ebf) | Objective-C
-[ViewController (with xib) composed of UILabel](https://gist.github.com/ccabanero/e8f4ce9b7881d5d31939) | Objective-C
 [ViewController (in Storyboard) composed of UILabel](https://gist.github.com/ccabanero/68cd8ff461316930f707) | Swift
 [ViewController (in Storyboard) composed of UIImagePickerController](https://gist.github.com/ccabanero/3c758af01944cc591fbb) | Objective-C
+[UIBarButtonItem has Target and Action Assigned](https://gist.github.com/ccabanero/4a1a4bfbf5fa3fbbb1070c8765c3de73) | Swift
 
 ####Sample Unit Tests for Model Classes
 
