@@ -15,9 +15,9 @@ XCTest.framework
 
 Description | Language
 ------------ | ------------- 
-[ViewController (in Storyboard) implements Target-Action for a UIBarButtonItem](https://gist.github.com/ccabanero/4a1a4bfbf5fa3fbbb1070c8765c3de73) | Swift
 [ViewController (in Storyboard) composed of UITableView](https://gist.github.com/ccabanero/39ee6d5fd7b289dee695) | Swift
 [ViewController (in Storyboard) composed of UICollectionView](https://gist.github.com/ccabanero/6ef47c1aeb21acfb326d30f6b01825d1) | Swift
+[ViewController (in Storyboard) implements Target-Action for a UIBarButtonItem](https://gist.github.com/ccabanero/4a1a4bfbf5fa3fbbb1070c8765c3de73) | Swift
 [Testing Segue transitions with mock UIViewController](https://gist.github.com/ccabanero/9f7ad6775eacec3cc997) | Swift
 [Testing a CustomView is properly initialized by ViewController](https://gist.github.com/ccabanero/ac7237e4591092130326) | Swift
 [ViewController (in Storyboard) composed of MKMapView](https://gist.github.com/ccabanero/90c73c46ed1671298775) | Swift
@@ -28,6 +28,7 @@ Description | Language
 [ViewController (in Storyboard) composed of UILabel](https://gist.github.com/ccabanero/68cd8ff461316930f707) | Swift
 [ViewController (in Storyboard) composed of UIImagePickerController](https://gist.github.com/ccabanero/3c758af01944cc591fbb) | Objective-C
 [Testing UIAlertController with mock UIViewController](https://gist.github.com/ccabanero/b88a77caba37f8dd9fbf) | Swift
+
 
 ####Sample Unit Tests for Model Classes
 
