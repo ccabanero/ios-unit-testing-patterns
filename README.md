@@ -28,6 +28,7 @@ Description | Language
 [ViewController (in Storyboard) composed of UILabel](https://gist.github.com/ccabanero/68cd8ff461316930f707) | Swift
 [ViewController (in Storyboard) composed of UIImagePickerController](https://gist.github.com/ccabanero/3c758af01944cc591fbb) | Objective-C
 [Testing UIAlertController with mock UIViewController](https://gist.github.com/ccabanero/b88a77caba37f8dd9fbf) | Swift
+[Testing UIRightBarButtonItem has correct custom UIImage](https://gist.github.com/ccabanero/ed9111e472f6cb283ff8c3e714712efa) | Swift
 
 
 ####Sample Unit Tests for Model Classes
