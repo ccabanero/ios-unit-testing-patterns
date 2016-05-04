@@ -18,14 +18,14 @@ Description | Language
 [ViewController (in Storyboard) composed of UITableView](https://gist.github.com/ccabanero/39ee6d5fd7b289dee695) | Swift
 [ViewController (in Storyboard) composed of UICollectionView](https://gist.github.com/ccabanero/6ef47c1aeb21acfb326d30f6b01825d1) | Swift
 [ViewController (in Storyboard) implements Target-Action for a UIBarButtonItem](https://gist.github.com/ccabanero/4a1a4bfbf5fa3fbbb1070c8765c3de73) | Swift
+[ViewController (in Storyboard) composed of UIButton](https://gist.github.com/ccabanero/b92197516342c0147688) | Swift
+[ViewController (in Storyboard) composed of UILabel](https://gist.github.com/ccabanero/68cd8ff461316930f707) | Swift
 [Testing Segue transitions with mock UIViewController](https://gist.github.com/ccabanero/9f7ad6775eacec3cc997) | Swift
 [Testing a CustomView is properly initialized by ViewController](https://gist.github.com/ccabanero/ac7237e4591092130326) | Swift
 [ViewController (in Storyboard) composed of MKMapView](https://gist.github.com/ccabanero/90c73c46ed1671298775) | Swift
 [ViewController (with xib) composed of CLLocationManager](https://gist.github.com/ccabanero/cd6e068c9271a6c30bfc) | Objective-C
 [ViewController (with xib) composed of UISegmentedControl](https://gist.github.com/ccabanero/e204496231a41759fa94) | Objective-C
-[ViewController (in Storyboard) composed of UIButton](https://gist.github.com/ccabanero/b92197516342c0147688) | Swift
 [ViewController (with xib) composed of UIPickerView](https://gist.github.com/ccabanero/8d1dfa65218b8bb10ebf) | Objective-C
-[ViewController (in Storyboard) composed of UILabel](https://gist.github.com/ccabanero/68cd8ff461316930f707) | Swift
 [ViewController (in Storyboard) composed of UIImagePickerController](https://gist.github.com/ccabanero/3c758af01944cc591fbb) | Objective-C
 [Testing UIAlertController with mock UIViewController](https://gist.github.com/ccabanero/b88a77caba37f8dd9fbf) | Swift
 [Testing UIRightBarButtonItem has correct custom UIImage](https://gist.github.com/ccabanero/ed9111e472f6cb283ff8c3e714712efa) | Swift
