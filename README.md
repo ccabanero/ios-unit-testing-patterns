@@ -24,7 +24,7 @@ Description | Language
 [Testing Segue passes data to Target ViewController](https://gist.github.com/ccabanero/308db4882b7ca4967ebb5d17530177f3) | Swift
 [Testing a CustomView is properly initialized by ViewController](https://gist.github.com/ccabanero/ac7237e4591092130326) | Swift
 [ViewController (in Storyboard) composed of MKMapView](https://gist.github.com/ccabanero/90c73c46ed1671298775) | Swift
-[ViewController (with xib) composed of CLLocationManager](https://gist.github.com/ccabanero/cd6e068c9271a6c30bfc) | Objective-C
+[ViewController (with xib) composed of CLLocationManager](https://gist.github.com/ccabanero/dd35e7bee8205ad225f3de1391027aa5) | Swift
 [ViewController (with xib) composed of UISegmentedControl](https://gist.github.com/ccabanero/e204496231a41759fa94) | Objective-C
 [ViewController (with xib) composed of UIPickerView](https://gist.github.com/ccabanero/8d1dfa65218b8bb10ebf) | Objective-C
 [ViewController (in Storyboard) composed of UIImagePickerController](https://gist.github.com/ccabanero/3c758af01944cc591fbb) | Objective-C
