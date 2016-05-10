@@ -20,6 +20,7 @@ Description | Language
 [ViewController (in Storyboard) implements Target-Action for a UIBarButtonItem](https://gist.github.com/ccabanero/4a1a4bfbf5fa3fbbb1070c8765c3de73) | Swift
 [ViewController (in Storyboard) composed of UIButton](https://gist.github.com/ccabanero/b92197516342c0147688) | Swift
 [ViewController (in Storyboard) composed of UILabel](https://gist.github.com/ccabanero/68cd8ff461316930f707) | Swift
+[ViewController (in Storyboard) has Segue](https://gist.github.com/ccabanero/a0fbb675f44a5136d2811d21a77e332a) | Swift
 [Testing Segue is called with mock UIViewController](https://gist.github.com/ccabanero/9f7ad6775eacec3cc997) | Swift
 [Testing Segue passes data to Target ViewController](https://gist.github.com/ccabanero/308db4882b7ca4967ebb5d17530177f3) | Swift
 [Testing a CustomView is properly initialized by ViewController](https://gist.github.com/ccabanero/ac7237e4591092130326) | Swift
