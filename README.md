@@ -18,8 +18,7 @@ Description | Language
 [ViewController (in Storyboard) composed of UITableView](https://gist.github.com/ccabanero/39ee6d5fd7b289dee695) | Swift
 [ViewController (in Storyboard) composed of UICollectionView](https://gist.github.com/ccabanero/6ef47c1aeb21acfb326d30f6b01825d1) | Swift
 [ViewController (in Storyboard) implements Target-Action for a UIBarButtonItem](https://gist.github.com/ccabanero/4a1a4bfbf5fa3fbbb1070c8765c3de73) | Swift
-[ViewController (in Storyboard) composed of UIButton](https://gist.github.com/ccabanero/b92197516342c0147688) | Swift
-[ViewController (in Storyboard) composed of UILabel](https://gist.github.com/ccabanero/68cd8ff461316930f707) | Swift
+[ViewController (in Storyboard) composed of UISearchBar](https://gist.github.com/ccabanero/0f20b0708c0d756327995e58ff3309d4) | Swift
 [ViewController (in Storyboard) has Segue](https://gist.github.com/ccabanero/a0fbb675f44a5136d2811d21a77e332a) | Swift
 [Testing Segue is called with mock UIViewController](https://gist.github.com/ccabanero/9f7ad6775eacec3cc997) | Swift
 [Testing Segue passes data to Target ViewController](https://gist.github.com/ccabanero/308db4882b7ca4967ebb5d17530177f3) | Swift
@@ -29,6 +28,8 @@ Description | Language
 [ViewController (with xib) composed of UISegmentedControl](https://gist.github.com/ccabanero/e204496231a41759fa94) | Objective-C
 [ViewController (with xib) composed of UIPickerView](https://gist.github.com/ccabanero/8d1dfa65218b8bb10ebf) | Objective-C
 [ViewController (in Storyboard) composed of UIImagePickerController](https://gist.github.com/ccabanero/3c758af01944cc591fbb) | Objective-C
+[ViewController (in Storyboard) composed of UIButton](https://gist.github.com/ccabanero/b92197516342c0147688) | Swift
+[ViewController (in Storyboard) composed of UILabel](https://gist.github.com/ccabanero/68cd8ff461316930f707) | Swift
 [Testing UIAlertController with mock UIViewController](https://gist.github.com/ccabanero/b88a77caba37f8dd9fbf) | Swift
 [Testing UIRightBarButtonItem has correct custom UIImage](https://gist.github.com/ccabanero/ed9111e472f6cb283ff8c3e714712efa) | Swift
 [Testing that APIClient requests data during ViewController/s viewDidLoad() event](https://gist.github.com/ccabanero/d3bc7c36b2b1381be97494404407ce26) | Swift
