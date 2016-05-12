@@ -94,7 +94,7 @@ __[Working with a ViewController that presents a UIAlertController](https://gist
 
 [Testing Model Class methods](https://gist.github.com/ccabanero/4221831a4c527c0453a8506628df34af)
 
-[Asynchronous Unit Test When Model performs work over the Network](https://gist.github.com/ccabanero/24a46c777bb29da95ba5)
+[Asynchronous Integration Test When Model performs work over the Network](https://gist.github.com/ccabanero/24a46c777bb29da95ba5)
 
 [Model adopts the MKAnnotation protocol](https://gist.github.com/ccabanero/f6f8aeb7ea06073753bf)
 
