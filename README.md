@@ -6,7 +6,7 @@ iOS Unit Testing Patterns
 Unit testing code snippets for various iOS development scenarios.
 
 ###Language
-Swift
+Swift 2.x
 
 ###Unit Testing Framework
 XCTest.framework
