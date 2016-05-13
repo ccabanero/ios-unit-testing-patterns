@@ -44,6 +44,7 @@ __Working with Segues between ViewControllers__
 * [Storyboard has target Segue](https://gist.github.com/ccabanero/a0fbb675f44a5136d2811d21a77e332a)
 * [Testing a Segue is called using a Mock UIViewController](https://gist.github.com/ccabanero/9f7ad6775eacec3cc997)
 * [Testing Segue passes data to Target ViewController](https://gist.github.com/ccabanero/308db4882b7ca4967ebb5d17530177f3)
+* [Testing ViewController can respond to an Unwind Segue](https://gist.github.com/ccabanero/177a54d2be3694f08c4f3c8f02f74394)
 
 __[Working with a ViewController composed of Custom Views](https://gist.github.com/ccabanero/ac7237e4591092130326)__
 
