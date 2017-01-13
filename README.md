@@ -124,7 +124,7 @@ __[Working with a ViewController that presents a UIAlertController](https://gist
             super.setUp()
 
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            self.viewControllerUnderTest = storyboard.instantiateViewControllerWithIdentifier("ViewController") as! ViewController
+            self.viewControllerUnderTest = storyboard.instantiateViewController(withIdentifier: "ViewController") as! ViewController
 
             self.viewControllerUnderTest.loadView()
             self.viewControllerUnderTest.viewDidLoad()
