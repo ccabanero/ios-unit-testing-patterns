@@ -1,17 +1,19 @@
 iOS Unit Testing Patterns
 =========================
 
+### Description
 
-###Description
 Unit testing code snippets for various iOS development scenarios.
 
-###Language
+### Language
+
 Swift 2.x
 
-###Unit Testing Framework
+### Unit Testing Framework
+
 XCTest.framework
 
-###Sample Unit Tests for ViewController Classes
+### Sample Unit Tests for ViewController Classes
 
 __[Working with a ViewController composed of TableViews](https://gist.github.com/ccabanero/39ee6d5fd7b289dee695)__
 
@@ -88,8 +90,7 @@ __[Working with a ViewController that presents a UIAlertController](https://gist
 * Using a mock ViewController to confirm launching UIAlertViewController
 * Testing the initialization and state of UIAlertController once presented.
 
-
-###Sample Unit Tests for Model Classes
+### Sample Unit Tests for Model Classes
 
 [Testing Model Class Initialization](https://gist.github.com/ccabanero/90c6e2aadfd4efa6b059333edeb2b314) 
 
@@ -105,8 +106,7 @@ __[Working with a ViewController that presents a UIAlertController](https://gist
 
 [Confirming that a NSManagedObject subclass Category properly seeds CoreData](https://gist.github.com/ccabanero/3de1a0cfecc7cb4fa9e6)
 
-
-###Set Up
+### Set Up
 
 * When unit testing ViewController classes in storyboards, make sure to explicitly declare a 'Storyboard ID' property in the Identity Inspector for that ViewController.
 
@@ -136,7 +136,8 @@ __[Working with a ViewController that presents a UIAlertController](https://gist
         }
 ```` 
 
-###Connect
+### Connect
+
 * Twitter: [@clintcabanero](http://twitter.com/clintcabanero)
 * GitHub: [ccabanero](http:///github.com/ccabanero)
 
