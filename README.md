@@ -137,7 +137,7 @@ __[Working with a ViewController that presents a UIAlertController](https://gist
 
         func testStuff() {
            XCTAssertEqual(1, 1)
-       }
+        }
 ```` 
 
 ### Add a Test Case file
@@ -149,6 +149,8 @@ Below are steps for adding a Test Case file for an individual class that you are
 * Choose Cocoa Touch Class
 * Use a naming convention - such as appending Test to your class name.  For example, use MapViewControllerTest for testing MapViewController.
 * Choose the Subclass of __XCTestCase__
+* Confirm the Test target is selected
+* Choose Create
 
 ### Connect
 
