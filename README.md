@@ -138,6 +138,7 @@ __[Working with a ViewController that presents a UIAlertController](https://gist
         func testStuff() {
            XCTAssertEqual(1, 1)
         }
+    }
 ```` 
 
 ### Add a Test Case file
