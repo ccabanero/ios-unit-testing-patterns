@@ -7,7 +7,7 @@ Unit testing code snippets for various iOS development scenarios.
 
 ### Language
 
-Swift 2.x
+Swift 4.x
 
 ### Unit Testing Framework
 
@@ -106,7 +106,7 @@ __[Working with a ViewController that presents a UIAlertController](https://gist
 
 [Confirming that a NSManagedObject subclass Category properly seeds CoreData](https://gist.github.com/ccabanero/3de1a0cfecc7cb4fa9e6)
 
-### Set Up
+### Set Up for Testing ViewController
 
 * When unit testing ViewController classes in storyboards, make sure to explicitly declare a 'Storyboard ID' property in the Identity Inspector for that ViewController.
 
@@ -118,13 +118,13 @@ __[Working with a ViewController that presents a UIAlertController](https://gist
 
     class UnitTestsTests: XCTestCase {
 
-        var viewControllerUnderTest: ViewController!
+        var viewControllerUnderTest: UIViewController!
 
         override func setUp() {
             super.setUp()
 
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            self.viewControllerUnderTest = storyboard.instantiateViewController(withIdentifier: "ViewController") as! ViewController
+            self.viewControllerUnderTest = storyboard.instantiateViewController(withIdentifier: "ViewController")
 
             self.viewControllerUnderTest.loadView()
             self.viewControllerUnderTest.viewDidLoad()
@@ -134,7 +134,21 @@ __[Working with a ViewController that presents a UIAlertController](https://gist
             // Put teardown code here. This method is called after the invocation of each test method in the class.
             super.tearDown()
         }
+
+        func testStuff() {
+           XCTAssertEqual(1, 1)
+       }
 ```` 
+
+### Add a Test Case file
+
+Below are steps for adding a Test Case file for an individual class that you are testing.
+
+* Right-click your Tests folder in the Xcode Project Navigator
+* Choose New File
+* Choose Cocoa Touch Class
+* Use a naming convention - such as appending Test to your class name.  For example, use MapViewControllerTest for testing MapViewController.
+* Choose the Subclass of __XCTestCase__
 
 ### Connect
 
