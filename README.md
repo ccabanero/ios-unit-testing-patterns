@@ -17,8 +17,11 @@ XCTest.framework
 
 __[Working with a ViewController composed of TableViews](https://gist.github.com/ccabanero/39ee6d5fd7b289dee695)__
 
+* View Controller is composed of TableView
 * Conforms to and implements UITableViewDataSource protocol methods.
 * Conforms to and implements UITableViewDelegate protocol methods.
+* TableView has expected reuse identifier
+* TableViewCells have expected properties (e.g. cell label)
 
 __[Working with a ViewController composed of CollectionViews](https://gist.github.com/ccabanero/6ef47c1aeb21acfb326d30f6b01825d1)__
 
