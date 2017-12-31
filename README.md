@@ -109,8 +109,8 @@ __[Working with a ViewController that presents a UIAlertController](https://gist
 ### Set Up for Testing ViewController
 
 * When unit testing ViewController classes in storyboards, make sure to explicitly declare a 'Storyboard ID' property in the Identity Inspector for that ViewController.
-
 * With Xcode 7, avoid adding classes to the Unit Testing target (or changing the access control level of classes for the sake of unit testing).  Instead use the __@testable__ attribute before declaring your test case class (see below).
+* Int he below sample, substitue __MyViewController__ with the name of your actual UIViewController you are testing.
 
 ````
     import XCTest
@@ -118,13 +118,13 @@ __[Working with a ViewController that presents a UIAlertController](https://gist
 
     class UnitTestsTests: XCTestCase {
 
-        var viewControllerUnderTest: UIViewController!
+        var viewControllerUnderTest: MyViewController!
 
         override func setUp() {
             super.setUp()
 
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            self.viewControllerUnderTest = storyboard.instantiateViewController(withIdentifier: "ViewController")
+            self.viewControllerUnderTest = storyboard.instantiateViewController(withIdentifier: "MyViewController") as! MyViewController
 
             self.viewControllerUnderTest.loadView()
             self.viewControllerUnderTest.viewDidLoad()
